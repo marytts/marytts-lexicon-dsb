@@ -19,7 +19,7 @@ publishing {
             name = "GitHubPackages"
             url = "https://maven.pkg.github.com/$System.env.GITHUB_REPOSITORY"
             credentials {
-                username = System.envGITHUB_ACTOR
+                username = System.env.GITHUB_ACTOR
                 password = System.env.GITHUB_TOKEN
             }
         }
