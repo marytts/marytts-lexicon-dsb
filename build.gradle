@@ -5,6 +5,8 @@ plugins {
 
 group 'de.dfki.mary'
 version '0.1.0-SNAPSHOT'
+description 'Lower Sorbian lexicon for MaryTTS'
+
 ext.isReleaseVersion = !version.endsWith("SNAPSHOT")
 
 java {
@@ -19,6 +21,36 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
             from components.java
+            pom {
+                name = project.name
+                description = project.description
+                url = 'https://github.com/marytts/marytts-lexicon-dsb'
+                licenses {
+                    license {
+                        name = 'GNU Lesser General Public License v3.0 only'
+                        url = 'https://spdx.org/licenses/LGPL-3.0-only.html'
+                    }
+                }
+                developers {
+                    developer {
+                        id = 'psibre'
+                        name = 'Ingmar Steiner'
+                    }
+                    developer {
+                        id = 'aStereoID'
+                        name = 'Astrid Schmiedel'
+                    }
+                    developer {
+                        id = 'JMK-CB'
+                        name = 'Jan Meschkank'
+                    }
+                }
+                scm {
+                    connection = 'scm:git:git://github.com/marytts/marytts-lexicon-dsb.git'
+                    developerConnection = 'scm:git:ssh://git@github.com:marytts/marytts-lexicon-dsb.git'
+                    url = 'https://github.com/marytts/marytts-lexicon-dsb'
+                }
+            }
         }
     }
     repositories {
