@@ -4,6 +4,10 @@ Lower Sorbian lexicon for MaryTTS
 [Unreleased]
 ------------
 
+### Added
+
+- A few lexicon entries
+
 [v0.1.0] - 2022-11-21
 ---------------------
 
