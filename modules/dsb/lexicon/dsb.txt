@@ -4424,8 +4424,8 @@ złym	zw3/*+m
 žłobc	z`wOpts
 žłobck	z`wOptsk
 žłobk	z`wOpk
-synteze z3/*+ntezE
-zakłaźe zakwaz+E
+synteze	z3/*+ntezE
+zakłaźe	zakwaz+E
 dołapowanymi	doUapowan3/*+mi
 logikaŕkow	logikar*jkoU
 logikarkow	logikar*jkoU
