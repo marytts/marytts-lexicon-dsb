@@ -1,8 +1,8 @@
 Lower Sorbian lexicon for MaryTTS
 =================================
 
-[Unreleased]
-------------
+[v0.1.1] - 2023-01-26
+---------------------
 
 ### Added
 
@@ -21,5 +21,5 @@ Initial release
 
 - Artifact hosting on GitHub Packages
 
-[Unreleased]: https://github.com/marytts/marytts-lexicon-dsb
+[v0.1.1]: https://github.com/marytts/marytts-lexicon-dsb/releases/tag/v0.1.1
 [v0.1.0]: https://github.com/marytts/marytts-lexicon-dsb/releases/tag/v0.1.0
