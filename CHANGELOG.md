@@ -4,6 +4,10 @@ Lower Sorbian lexicon for MaryTTS
 [Unreleased]
 ------------
 
+### Added
+
+- Nearly 25k lexicon entries
+
 ### Changed
 
 - Build with Gradle v7.6.4
