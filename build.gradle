@@ -21,7 +21,7 @@ plugins {
 }
 
 group 'de.dfki.mary'
-version '0.2.1'
+version '0.3.0-SNAPSHOT'
 description 'Lower Sorbian lexicon for MaryTTS'
 
 ext.isReleaseVersion = !version.endsWith("SNAPSHOT")
